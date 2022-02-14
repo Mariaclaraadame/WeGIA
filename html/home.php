@@ -65,7 +65,7 @@
 			$("#category-row").addClass("hidden");
 			$(".back-container").removeClass("hidden");
 		});
-		$(".back").on( "click", function() {
+		$(".back-container").on( "click", function() {
 			$("#category-row").removeClass("hidden");
 			$(".collapse").removeClass("in");
 			$(".back-container").addClass("hidden");
